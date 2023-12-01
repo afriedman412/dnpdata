@@ -1,0 +1,30 @@
+{# macros.jinja #}
+{% import 'parts.jinja' as parts %}
+
+{% macro section_header(header_text) %}
+<div class="sectioner">
+    <hr>
+    <h1>{{ header_text.upper() }}</h1>
+    <hr>
+</div>
+{% endmacro %}
+
+{% macro tag_container(parts_list, header_text, entries, sep) %}
+{{ section_header(header_text) }}
+{% for e in entries %}
+    {% for m in parts_list %}
+        {% if m[0] == "<" %}
+            {{ m }}
+        {% elif m in parts.__dict__ %}
+            {{ parts[m](e) }}
+        {% elif m in e.__dict__ %}
+            {{ e[m] }}
+        {% endif %}
+    {% endfor %}
+    {% if not loop.last %}
+    {% if sep==True %}
+    <hr>
+    {% endif %}
+    {% endif %}
+{% endfor %}
+{% endmacro %}
