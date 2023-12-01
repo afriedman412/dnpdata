@@ -1,20 +1,22 @@
-title: Boo Berry's Website
-headline: Boo Berry
-email: boo [at] berries [dot] biz
-image: boo_berry.jpg
+title: DNP
+headline: Andrew Friedman
+email: afriedman412 [at] gmail [dot] com
+image: IMG_6980_alm_edit.jpg
 
 socials:
-  twitter: http://twitter.com/real_boo_berry
-  linkedin: http://linkedin.com/in/real_boo_berry
+  twitter: http://twitter.com/trent_holograms
+  linkedin: http://linkedin.com/in/afriedman412
+  github: http://github.com/afriedman412
 
 bio: >-
-  Friendly and energetic ghost seeking a challenging role as the official mascot for General Mills' Boo Berry cereal.<br><br>
+  My name is Andrew, but most people call me Andy.<br><br>
 
-  Proven track record of spreading joy and delight among cereal enthusiasts.<br><br>
+  I am a data scientist, coder, writer and talker. I wear a lot of hats and like to learn through doing.<br><br>
   
-  Possesses excellent communication skills and a passion for promoting a healthy and balanced breakfast lifestyle.
+  I believe the best data is rare data, and I am particularly interested in data acquisition from difficult sources.<br><br>
+  
+  I used to DJ a lot. I am still technically signed to Tommy Boy Records.
+  Before that, I did genomic research at NYU.
 
-include: more_bio.html
-
-footer: © 2023 Casper Productions
+footer: © 2023 DNP Data
 

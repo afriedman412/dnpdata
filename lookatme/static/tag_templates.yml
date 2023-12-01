@@ -1,8 +1,7 @@
 home:
   endpoint: ""
 
-experience:
-  header-text: Professional Experience
+work:
   parts:
     - position
     - <p>
@@ -13,24 +12,31 @@ experience:
     - responsibilities
   sep: True
 
-skills:
+projects:
   parts:
-    - skill
-    - <br>
-    - description
-  sep: False
-
-education:
-  parts:
-    - school
-    - degree
-    - <br>
-    - school_notes
+    - title
+    - <p>
+    - date
+    - </p>
+    - synopsis
+    - skills
   sep: True
 
 content:
   endpoint: stuff
-  header-text: Stuff I Like
+  header-text: lately
   parts:
     - content_header
     - media
+
+writing:
+  header-text: Selected Writing
+  parts:
+    - title
+    - <p>
+    - publication
+    - date
+    - collaborators
+    - </p>
+    - synopsis
+  sep: True

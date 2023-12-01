@@ -7,6 +7,11 @@
 </p>
 {% endmacro %}
 
+{% macro skills(e) %}
+{% if 'skills' in e %}
+<span class="skill"><b>SKILLS:</b></span><br> {{ e.skills | join(", ") }}
+{% endif %}
+{% endmacro %}
 
 {% macro responsibilities(e) %}
 {% if 'responsibilities' in e %}
@@ -23,7 +28,7 @@
 {{ e.date }} to {{ e.end_date if 'end_date' in e else 'present'}}<br>
 {% endmacro %}
 
-{% macro pubdate(e) %}
+{% macro date(e) %}
 {{ e.date }}<br>
 {% endmacro %}
 
