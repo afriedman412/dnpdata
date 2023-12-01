@@ -1,5 +1,17 @@
 {# parts.jinja #}
 
+{% macro opensource(e) %}
+<p>
+<h2><a href="{{ e.url }}">{{ e.title }}</a></h2>
+{{ e.description }}
+</p>
+<ul>
+{% for c in e.contributions %}
+<li>{{ c }}
+{% endfor %}
+</ul>
+{% endmacro %}
+
 {% macro skill(e) %}
 <p>
 <strong>{{ e.skill }}</strong>:<br>

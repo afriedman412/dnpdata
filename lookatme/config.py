@@ -12,7 +12,6 @@ class DevelopmentConfig(Config):
 class TestingConfig(Config):
     TESTING = "true"
     FLASK_ENV = "test"
-    CONFIGFILE = "pee"
 
 
 class ProductionConfig(Config):

@@ -1,5 +1,6 @@
 home:
   endpoint: ""
+  priority: 1
 
 work:
   parts:
@@ -11,6 +12,14 @@ work:
     - synopsis
     - responsibilities
   sep: True
+  priority: 2
+
+opensource:
+  header-text: open source
+  headline: open source contributions
+  parts:
+    - opensource
+  priority: 4
 
 projects:
   parts:
@@ -21,16 +30,18 @@ projects:
     - synopsis
     - skills
   sep: True
+  priority: 3
 
 content:
   endpoint: stuff
-  header-text: lately
+  headline: lately
   parts:
     - content_header
     - media
+  priority: 6
 
 writing:
-  header-text: Selected Writing
+  headline: Selected Writing
   parts:
     - title
     - <p>
@@ -40,3 +51,4 @@ writing:
     - </p>
     - synopsis
   sep: True
+  priority: 5

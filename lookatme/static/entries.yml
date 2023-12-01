@@ -1,3 +1,42 @@
+# opensource
+- title: Textacy
+  date: 4-1-2023
+  url: https://github.com/chartbeat-labs/textacy
+  description: >- 
+    Python library for performing a variety of natural language processing (NLP) tasks, built on the high-performance spaCy library. With the fundamentals --- tokenization, part-of-speech tagging, dependency parsing, etc. --- delegated to another library, textacy focuses primarily on the tasks that come before and follow after.
+  contributions:
+  - Improved quote detection to look for text within pairs of specific characters, instead of text between any sequential quotation mark-like characters
+  - Improved accuracy of attribution and reduced false positives by expanding and adjusting window for attribution
+  - Added code to prepare and standardize text for quote detection
+  tags:
+  - opensource
+
+- title: PDFPlumber
+  date: 11-9-2023
+  url: https://github.com/jsvine/pdfplumber
+  description: >- 
+    Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables..
+  contributions:
+  - Implemented recognition of character spacing by fraction of font size (instead of total pixels)
+  - Improved and streamlined code for interpreting rotated text and text written in any direction (vertically or horizontally)
+  tags:
+  - opensource
+
+- title: FPDF2
+  date: 11-2-2023
+  url: https://github.com/py-pdf/fpdf2
+  description: >- 
+    Simple PDF generation for Python
+  contributions:
+  - Expanded capability to convert SVG images to PDF
+  - Added support for SVG clipping paths
+  - Improved SVG variable interpretation
+  - Added proper formatting for multi-index tables
+  tags:
+  - opensource
+
+
+
 # projects
 - title: LatLong
   url: http://latlong.dnpdata.com
@@ -391,8 +430,7 @@
 
 - date: 3-3-2015
   publication: FACT Magazine
-  synopsis: In which St. Petersburg rappers find their niche via a detour through
-    EDM.
+  synopsis: In which St. Petersburg rappers find their niche via a detour through EDM.
   tags:
   - writing
   title: 'Putin Work: How Russia fell in love with trap rap'
