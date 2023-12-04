@@ -208,7 +208,7 @@
     Light Python package for moving data in and out of Google Sheets.
     <ul>
     <li>
-      Mnipulate, analyze and share.csv (and .csv-like) data using tools like Jupyter and Pandas.
+      Manipulate, analyze and share.csv (and .csv-like) data using tools like Jupyter and Pandas.
     </li>
     <li>
       Avoid the formatting and versioning issues raised by repeated imports and exports.
