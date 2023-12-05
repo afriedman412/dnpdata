@@ -38,6 +38,23 @@
 
 
 # projects
+- title: Look At Me
+  url: https://github.com/afriedman412/lookatme
+  date: 12-4-2023
+  synopsis: >-
+    A light, modular website template built on Python, Jinja2 and not much else.<br><br>
+
+    I made <strong>Look At Me</strong> because I was having trouble figuring out how to best structure a portfolio website that could showcase projects that fell under multiple categories. For example: I wanted to have a "writing" page and a "data journalism" page, with projects formatted differently on each page. Some projects fell under both categories, but having an entry on each page for the same project didn't seem like the best approach.
+    <br><br>
+
+    <strong>Look At Me</strong> lets you build a site by filling out some YAML and maybe tweaking some Jinja code if you are feeling spicy. As a bonus, you don't need to learn a new language, or use an external service to do it!
+  skills:
+  - Flask
+  - Jinja2
+  - CSS
+  tags:
+  - projects
+
 - title: LatLong
   url: http://latlong.dnpdata.com
   date: 8-31-2023

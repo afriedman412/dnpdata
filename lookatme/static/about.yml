@@ -20,5 +20,5 @@ bio: >-
 
 include: more_bio.html
 
-footer: © 2023 DNP Data
+footer: Made with <a href="https://github.com/afriedman412/lookatme"><strong>Look At Me</strong></a> © 2023 DNP Data
 
