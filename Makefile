@@ -54,6 +54,7 @@ check-mypy:
 lint: check-flake check-mypy check-autopep check-isort
 
 format:
+	. $(VENV_PATH);
 	${PYTHON} -m autopep8 $(SRC_DIR)/*.py tests/*.py --in-place
 	${PYTHON} -m isort $(SRC_DIR) tests
 
