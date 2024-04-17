@@ -373,24 +373,24 @@
   media_type: songs
   header: "The last 3 songs I listened to"
   media: 
-    - by: Danny Brown + Bruiser Wolf
-      title: Y.B.P.
-    - by: Aesop Rock
-      title: Pigeonometry
-    - by: Kam
-      title: Peace Treaty
+    - by: Beyoncé
+      title: Protector
+    - by: Timbaland, Magoo and Missy Elliot
+      title: Here We Come
+    - by: Mirage
+      title: Lady Operator
 
 - tags:
   - content
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
-    - by: David Baddiel
-      title: Jews Don't Matter
-    - by: Ursula K. Le Guin
-      title: The Dispossessed
-    - by: Rebecca Solnit
-      title: A Paradise Built In Hell
+    - by: Liu Cixin
+      title: The Three-Body Problem
+    - by: Michael Chabon
+      title: The Yiddish Policeman's Union
+    - by: Don DeLillo
+      title: White Noise
 
 # writing
 - collaborators:
