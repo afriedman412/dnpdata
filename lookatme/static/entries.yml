@@ -247,8 +247,6 @@
     I tracked the rate of use of "officer-involved" and similar exonerative language across 20 years of American reporting on police violence. Collaboration with <a href="https://twitter.com/notrivia">Brandon Soderberg</a>.
   skills:
   - natural language processing
-  - tk
-  - tk
   tags:
   - projects
   
@@ -268,7 +266,42 @@
   
 
 # work
+- date: 1-1-2019
+  organization: <a href="http://readsludge.com">Sludge</a>
+  position: Data Scientist
+  skills:
+  - Pipeline Construction
+  - GCP
+  - ETL
+  - Data Scraping
+  - SQL
+  synopsis: >- 
+      <p>
+      Build, deploy and maintain data pipelines and web applications to supply journalists with the most recent data on topics such as congressional investments and PAC expenditures.
+      </p>
+      <p>
+      A few of the stories which utilized data from the app:
+      </p>
+      <ul>
+      <li>
+        <a href='https://readsludge.com/2020/01/13/the-members-of-congress-who-profit-from-war/'>The Members of Congress Who Profit From War</a>
+      </li>
+      <li>
+        <a href='https://readsludge.com/2020/01/03/members-of-congress-own-up-to-93-million-in-fossil-fuel-stocks/'>Members of Congress Own Up to $93 Million in Fossil Fuel Stocks</a>
+      </li>
+      <li>
+        <a href='https://www.theguardian.com/us-news/2019/sep/19/us-senators-investments-conflict-of-interest'>Revealed: how US senators invest in firms they are supposed to regulate</a>
+      </li>
+      <li>
+        <a href='https://readsludge.com/2019/04/10/reps-questioning-megabank-ceos-own-stock-in-their-companies/'>Reps Questioning Megabank CEOs Own Stock in Their Companies</a>
+      </li>
+      </ul>
+  tags:
+  - work
+
+
 - date: 6-1-2022
+  end_date: 6-2-2023
   organization: Google/Medill Data-Driven Reporting Project
   position: Data Lead
   skills:
@@ -353,9 +386,8 @@
   position: Instructional Associate
   date: 9-1-2018
   end_date: 5-1-2020
-  synopsis: 'Training students in data science methods, concepts and technologies,
-    including: bash, python, data mining, supervised and unsupervised learning techniques,
-    model building, forecasting, SQL, AWS and NLP.'
+  synopsis: 'Train students in data science methods, concepts and technologies,
+    including: bash, python, data mining, supervised and unsupervised learning techniques, model building, forecasting, SQL, AWS and NLP.'
   tags:
   - work
   
