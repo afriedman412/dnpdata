@@ -405,24 +405,24 @@
   media_type: songs
   header: "The last 3 songs I listened to"
   media: 
-    - by: Beyoncé
-      title: Protector
-    - by: Timbaland, Magoo and Missy Elliot
-      title: Here We Come
-    - by: Mirage
-      title: Lady Operator
+    - by: skaiwater
+      title: bleach
+    - by: Peter Tosh
+      title: Stepping Razor
+    - by: Chappelle Roan
+      title: Good Luck Babe!
 
 - tags:
   - content
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
-    - by: Liu Cixin
-      title: The Three-Body Problem
+    - by: Hillbilly Elegy
+      title: J.D. Vance
     - by: Michael Chabon
       title: The Yiddish Policeman's Union
-    - by: Don DeLillo
-      title: White Noise
+    - by: Art Pepper
+      title: Straight Life
 
 # writing
 - collaborators:
