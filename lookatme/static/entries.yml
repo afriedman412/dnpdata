@@ -417,8 +417,8 @@
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
-    - by: Hillbilly Elegy
-      title: J.D. Vance
+    - by: J.D. Vance
+      title: Hillbilly Elegy
     - by: Michael Chabon
       title: The Yiddish Policeman's Union
     - by: Art Pepper
