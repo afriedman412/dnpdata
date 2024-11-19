@@ -405,22 +405,22 @@
   media_type: songs
   header: "The last 3 songs I listened to"
   media: 
-    - by: skaiwater
-      title: bleach
-    - by: Peter Tosh
-      title: Stepping Razor
-    - by: Chappelle Roan
-      title: Good Luck Babe!
+    - by: Slipknot
+      title: Wait and Bleed
+    - by: Wayne Shorter
+      title: Armaggeddon
+    - by: Cage
+      title: Agent Orange
 
 - tags:
   - content
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
-    - by: J.D. Vance
-      title: Hillbilly Elegy
-    - by: Michael Chabon
-      title: The Yiddish Policeman's Union
+    - by: Arthur C. Clarke
+      title: Expedition to Earth
+    - by: Marvin Sparks
+      title: Run The Riddim -- The Untold Story of 90's Dancehall
     - by: Art Pepper
       title: Straight Life
 
