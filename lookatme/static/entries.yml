@@ -405,24 +405,24 @@
   media_type: songs
   header: "The last 3 songs I listened to"
   media: 
-    - by: Slipknot
-      title: Wait and Bleed
-    - by: Wayne Shorter
-      title: Armaggeddon
-    - by: Cage
-      title: Agent Orange
+    - by: Sonic Youth
+      title: My Friend Goo
+    - by: DeBarge
+      title: All This Love
+    - by: El-P
+      title: No Kings
 
 - tags:
   - content
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
-    - by: Arthur C. Clarke
-      title: Expedition to Earth
-    - by: Marvin Sparks
-      title: Run The Riddim -- The Untold Story of 90's Dancehall
-    - by: Art Pepper
-      title: Straight Life
+    - by: Ben Westhoff
+      title: Fentanyl, Inc.
+    - by: qntm
+      title: There Is No Antimemetics Division
+    - by: William Gibson
+      title: Spook Country
 
 # writing
 - collaborators:
