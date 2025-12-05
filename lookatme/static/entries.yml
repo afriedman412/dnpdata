@@ -425,14 +425,14 @@
       title: Fentanyl, Inc.
 
 # writing
-- date: 9-26-25
+- date: 9-26-2025
   publication: Bobby Portis Tiny Desk Concert
   title: Most Known Unknowns
   url: https://bobbyportistinydesk.substack.com/p/most-known-unknowns
-  synopsis: I saw a few articles drumming up fear around "subliminal learning", \
-    in which an LLM can teach another LLM a learned behavior entirely through the \
-    random numbers it generates. This idea, that computers can communicate in a way \
-    that is opaque to us, scares some people, and I wanted to write about it. This is\
+  synopsis: I saw a few articles drumming up fear around "subliminal learning", 
+    in which an LLM can teach another LLM a learned behavior entirely through the 
+    random numbers it generates. This idea, that computers can communicate in a way 
+    that is opaque to us, scares some people, and I wanted to write about it. This is
     mostly a decent, plain English explanation of how LLM's work.
   tags:
   - writing
