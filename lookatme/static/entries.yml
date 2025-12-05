@@ -55,29 +55,6 @@
   tags:
   - projects
 
-- title: LatLong
-  url: http://latlong.dnpdata.com
-  date: 8-31-2023
-  synopsis: >- 
-    A web interface for getting latitude and longitude coordinates for locations. Somebody was looking for one and there wasn't one, so I built one.
-    <ul>
-    <li>
-      Flask app with integrated JavaScript for drag-and-drop functionality.
-    </li>
-    <li>
-      Uses <a href='https://nominatim.org/release-docs/develop/api/Overview/'>Nomantim</a> via <a href='https://geopy.readthedocs.io/en/stable/'>GeoPy</a>
-    </li>
-    <li>
-      Implements flexible timing and error-handling to navigate busy and unreliable servers.
-    </li>
-    </ul>
-  skills:
-  - Flask
-  - JavaScript
-  - CSS
-  - Jinja2
-  tags:
-  - projects
 
 
 - title: SaysWho
@@ -395,6 +372,12 @@
 # education
 - tags:
   - education
+  school: Northwestern University
+  major: Masters in Data science
+  date: 12-19-2025
+
+- tags:
+  - education
   school: Washington University in St. Louis
   major: Biology
   date: 6-1-2004
@@ -405,26 +388,39 @@
   media_type: songs
   header: "The last 3 songs I listened to"
   media: 
-    - by: Sonic Youth
-      title: My Friend Goo
-    - by: DeBarge
-      title: All This Love
-    - by: El-P
-      title: No Kings
+    - by: MexikoDro
+      title: Height
+    - by: Lily Allen
+      title: Sleepwalking
+    - by: Armand Hammer
+      title: Glue Traps
 
 - tags:
   - content
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
+    - by: Paul M. Barrett
+      title: Glock: The Rise Of America's Gun
+    - by: Alan Siegel
+      title: Stupid TV, Be More Funny
     - by: Ben Westhoff
       title: Fentanyl, Inc.
-    - by: qntm
-      title: There Is No Antimemetics Division
-    - by: William Gibson
-      title: Spook Country
 
 # writing
+- date: 9-26-25
+  publication: Bobby Portis Tiny Desk Concert
+  title: Most Known Unknowns
+  url: https://bobbyportistinydesk.substack.com/p/most-known-unknowns
+  synopsis: I saw a few articles drumming up fear around "subliminal learning", \
+    in which an LLM can teach another LLM a learned behavior entirely through the \
+    random numbers it generates. This idea, that computers can communicate in a way \
+    that is opaque to us, scares some people, and I wanted to write about it. This is\
+    mostly a decent, plain English explanation of how LLM's work.
+  tags:
+  - writing
+  - data
+
 - collaborators:
   - name: Mason Youngblood
     url: https://masonyoungblood.com/
