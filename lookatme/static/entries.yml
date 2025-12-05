@@ -38,6 +38,25 @@
 
 
 # projects
+- title: Short-Term Rental Revenue Estimator
+  url: https://csgstr.dnpdata.com/
+  date: 12-5-2025
+  synopsis: >-
+    <p>Put in a Zillow link in Chicago, the number of bedrooms and bathrooms and how many people it accommodates, get back optimal price per night, expected annual occupancy and predicted total revenue if you were to list it on AirBNB.<br><br>
+
+    Built on a trio of LightGBM models and powered by a neighbor-search stack that uses BallTree for precise local comps, FAISS for fast semantic similarity, and KNN-style aggregation to turn those neighbors into pricing and occupancy signals.<br><br>
+
+    MSDS Capstone project. Blood, sweat and tears. Code available soon. <i>Not investment advice!!!</i></p>
+  skills:
+  - Machine Learning
+  - Feature Engineering
+  - Backend Development
+  - Cloud Deployment
+  - DevOps & Tooling
+  tags:
+  - projects
+
+
 - title: Look At Me
   url: https://github.com/afriedman412/lookatme
   date: 12-4-2023
@@ -54,7 +73,6 @@
   - CSS
   tags:
   - projects
-
 
 
 - title: SaysWho
@@ -211,7 +229,6 @@
       Easier than using the Google Cloud API!
     </li>
     </ul>
-
   tags:
   - projects
   
@@ -401,7 +418,7 @@
   header: "The last 3 books I read/am reading"
   media:
     - by: Paul M. Barrett
-      title: Glock: The Rise Of America's Gun
+      title: "Glock: The Rise Of America's Gun"
     - by: Alan Siegel
       title: Stupid TV, Be More Funny
     - by: Ben Westhoff
