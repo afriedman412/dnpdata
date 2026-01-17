@@ -344,12 +344,12 @@
   - work
   
 
-- organization: Chatdesk
-  url: https://www.chatdesk.com/
+- organization: Remarkable AI (fka Chatdesk)
+  url: https://www.beremarkable.ai/
   position: Data Scientist
   date: 11-1-2018
   end_date: 8-1-2022
-  synopsis: Chatdesk is a Series A company backed by leading Silicon Valley investors
+  synopsis: Remarkable AI (previously Chatdesk) is a Series A company backed by leading Silicon Valley investors
     like Menlo Ventures, Susa Ventures and Slow Ventures in the customer service space,
     whose customers include leading brands like Grubhub, BarkBox, Thinx, and OLAPLEX.
   responsibilities:
@@ -405,24 +405,25 @@
   media_type: songs
   header: "The last 3 songs I listened to"
   media: 
-    - by: MexikoDro
-      title: Height
-    - by: Lily Allen
-      title: Sleepwalking
-    - by: Armand Hammer
-      title: Glue Traps
+    - by: Austra
+      title: Math Equation
+    - by: BigWalkDog
+      title: Lift
+    - by: Geese
+      title: Taxes
 
 - tags:
   - content
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
+    - by: Jim Dwyer
+      title: Subway Lives (24 Hours in the Life of the New York City Subway)
     - by: Paul M. Barrett
       title: "Glock: The Rise Of America's Gun"
     - by: Alan Siegel
       title: Stupid TV, Be More Funny
-    - by: Ben Westhoff
-      title: Fentanyl, Inc.
+
 
 # writing
 - date: 9-26-2025
