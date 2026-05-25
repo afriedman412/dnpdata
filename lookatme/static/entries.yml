@@ -38,6 +38,26 @@
 
 
 # projects
+- title: Petey
+  url: https://petey.cc
+  date: 1-1-2026
+  synopsis: >-
+    <p>An open-source Python framework for extracting structured data from PDFs using configurable LLM and parser backends. Distributed as a pip-installable package with a CLI, Python API and FastAPI service.<br><br>
+
+    Pluggable model-serving layer abstracts 12 LLM backends (OpenAI, Anthropic, Ollama, plus OpenAI-compatible providers) and 8 PDF parsers, with an async concurrency manager that splits CPU and API worker pools to maximize throughput under provider rate limits.<br><br>
+
+    Includes a schema-agnostic evaluation harness — sentence-transformers cosine similarity with field-type-aware scoring — that runs factorial sweeps across model × parser × dataset, tracking accuracy, latency and cost. Production-deployed as a containerized FastAPI service on Google Cloud Run with autoscaling.</p>
+  skills:
+  - Python
+  - FastAPI
+  - LLMs
+  - Async Concurrency
+  - Evaluation Frameworks
+  - GCP Cloud Run
+  - Docker
+  tags:
+  - projects
+
 - title: Short-Term Rental Revenue Estimator
   url: https://csgstr.dnpdata.com/
   date: 12-5-2025
@@ -46,7 +66,9 @@
 
     Built on a trio of LightGBM models and powered by a neighbor-search stack that uses BallTree for precise local comps, FAISS for fast semantic similarity, and KNN-style aggregation to turn those neighbors into pricing and occupancy signals.<br><br>
 
-    MSDS Capstone project. Blood, sweat and tears. Code available soon. <i>Not investment advice!!!</i></p>
+    Also includes a user-facing AI interface that synthesizes model predictions into plain-language investment evaluations.<br><br>
+
+    MSDS Capstone project. Blood, sweat and tears. <i>Not investment advice!!!</i></p>
   skills:
   - Machine Learning
   - Feature Engineering
@@ -55,6 +77,26 @@
   - DevOps & Tooling
   tags:
   - projects
+
+- title: The Shape of Meaning — Model Sensitivity to Textual Perturbation
+  date: 12-1-2025
+  synopsis: >-
+    <p>An empirical study of how off-the-shelf NLP classifiers respond when language is systematically distorted. Used dialogue from <em>The Office</em>, <em>It's Always Sunny in Philadelphia</em> and <em>South Park</em> — three sitcoms with similar formats but distinct tonal identities — as a natural comparative corpus, splitting ~150,000 lines into ~28,000 overlapping 8-line chunks and scoring each chunk for Emotion (4-model ensemble), Toxicity (Detoxify) and Topic (BART-large-MNLI zero-shot).<br><br>
+
+    Applied a series of controlled perturbations (case/punctuation removal, light and full token shuffling, and a "shuffle with preservation" condition that scrambled word order while keeping punctuation and capitalization intact) then quantified how each signal degraded using PCA + UMAP embeddings, silhouette scores, Jensen-Shannon divergence and Wasserstein distance.<br><br>
+
+    Graduate project, Northwestern MSDS.</p>
+  skills:
+  - NLP
+  - Model Evaluation
+  - Zero-Shot Classification
+  - Hugging Face
+  - PyTorch
+  - UMAP / PCA
+  - Statistical Analysis
+  tags:
+  - projects
+
 
 
 - title: Look At Me
@@ -98,49 +140,12 @@
   - projects
   
 
-- title: Congressional Financial Disclosure Scraper
-  date: 6-1-2019
-  organization: <em>Sludge</em>
-  synopsis: >-
-    I developed and continue to maintain an app which downloads congressional financial disclosure forms for <a href="http://readsludge.com"><em>Sludge</em></a>, a non-partisan site dedicated to investigating money in politics.
-    <ul>
-    <li>
-      Scrapes public senate and house transaction reports hourly, and uploads new data to SQL database.
-    </li>
-    <li>
-      Sends text alerts of new financial disclosures to reporting team.
-    </li>
-    </ul>
-    A few of the stories which utilized data from the app:
-    <ul>
-    <li>
-      <a href='https://readsludge.com/2020/01/13/the-members-of-congress-who-profit-from-war/'>The Members of Congress Who Profit From War</a>
-    </li>
-    <li>
-      <a href='https://readsludge.com/2020/01/03/members-of-congress-own-up-to-93-million-in-fossil-fuel-stocks/'>Members of Congress Own Up to $93 Million in Fossil Fuel Stocks</a>
-    </li>
-    <li>
-      <a href='https://www.theguardian.com/us-news/2019/sep/19/us-senators-investments-conflict-of-interest'>Revealed: how US senators invest in firms they are supposed to regulate</a>
-    </li>
-    <li>
-      <a href='https://readsludge.com/2019/04/10/reps-questioning-megabank-ceos-own-stock-in-their-companies/'>Reps Questioning Megabank CEOs Own Stock in Their Companies</a>
-    </li>
-    </ul>
-
-  skills:
-  - Selenium
-  - BeautifulSoup
-  - SQL
-  - Twilio
-  tags:
-  - projects
-  
-
 - title: Rap Caviar Gender Balance Tracker
   url: http://rcg.dnpdata.com/
   date: 10-1-2022
   synopsis: >-
-    Automated data collection and visualization of Spotify's influential Rap Caviar playlist, tracking how the gender balance of artists continues to change over time.
+    Automated data collection and visualization of Spotify's influential Rap Caviar playlist, tracking how the gender balance of artists continues to change over time.<br><br>
+    <i>(No longer updated due to API changes as of December 2024)</i>
     <ul>
     <li>
       Pulls chart updates daily using the Spotify API.
@@ -194,7 +199,7 @@
   url: https://brooklynevictiondefense.org/
   organization: Brooklyn Eviction Defense
   synopsis: >-
-    I set up a hotline to make it easier for tenants without internet access to contact <a href='https://brooklynevictiondefense.org/'>BED</a> if they needed the organization's help.
+    I set up a hotline to make it easier for tenants without internet access to contact <a href='https://brooklynevictiondefense.org/'>Brooklyn Eviction Defense</a> if they needed the organization's help.
     <ul>
     <li>
       Provides useful tenant information in English and Spanish.
@@ -203,7 +208,7 @@
       Automatically populates documents from voicemail transcriptions to streamline intake of new tenants looking for help.
     </li>
     <li>
-      Quick resposne line sends a text to members on call in case of emergency.
+      Quick response line sends a text to members on call in case of emergency.
     </li>
     </ul>
   skills:
@@ -260,38 +265,40 @@
   
 
 # work
-- date: 1-1-2019
+- date: 1-1-2022
   organization: <a href="http://readsludge.com">Sludge</a>
-  position: Data Scientist
+  position: ML Engineer
   skills:
-  - Pipeline Construction
-  - GCP
-  - ETL
-  - Data Scraping
-  - SQL
-  synopsis: >- 
+  - Python
+  - FastAPI
+  - GCP (Cloud Run, Cloud SQL, Cloud Scheduler)
+  - RAG
+  - ChromaDB
+  - LoRA Fine-Tuning
+  - Docker
+  - GitHub Actions / OIDC
+  synopsis: >-
       <p>
-      Build, deploy and maintain data pipelines and web applications to supply journalists with the most recent data on topics such as congressional investments and PAC expenditures.
-      </p>
-      <p>
-      A few of the stories which utilized data from the app:
+      Build and operate production AI/data systems that extract structured information from FEC campaign-finance filings, congressional stock-trading disclosures and municipal budget PDFs. The pipelines power ongoing newsroom queries and super-PAC industry-flow visualizations.
       </p>
       <ul>
-      <li>
-        <a href='https://readsludge.com/2020/01/13/the-members-of-congress-who-profit-from-war/'>The Members of Congress Who Profit From War</a>
-      </li>
-      <li>
-        <a href='https://readsludge.com/2020/01/03/members-of-congress-own-up-to-93-million-in-fossil-fuel-stocks/'>Members of Congress Own Up to $93 Million in Fossil Fuel Stocks</a>
-      </li>
-      <li>
-        <a href='https://www.theguardian.com/us-news/2019/sep/19/us-senators-investments-conflict-of-interest'>Revealed: how US senators invest in firms they are supposed to regulate</a>
-      </li>
-      <li>
-        <a href='https://readsludge.com/2019/04/10/reps-questioning-megabank-ceos-own-stock-in-their-companies/'>Reps Questioning Megabank CEOs Own Stock in Their Companies</a>
-      </li>
+      <li>Designed a RAG pipeline over thousands of municipal budget PDFs (ChromaDB + OpenAI embeddings) with metadata filtering and async producer-consumer ingest, plus crash-resistant subprocess isolation and SQLite-based job-state tracking.</li>
+      <li>Owned the full lifecycle of fine-tuned extraction models (Mistral 7B with LoRA) — dataset curation, evaluation against held-out ground truth, and production deployment.</li>
+      <li>Productionalized real-time FEC ingestion as a containerized FastAPI service on GCP Cloud Run and Cloud SQL, with Cloud Scheduler triggering ingest jobs and multi-tier job sizing for heavy parallel workers.</li>
+      <li>Implemented retry/backoff, idempotent dedup and checkpoint/resume to ingest 1.5M+ FEC records under API rate limits. Automated deploys to Cloud Run via GitHub Actions with OIDC.</li>
+      </ul>
+      <p>
+      A few stories that used data from these systems:
+      </p>
+      <ul>
+      <li><a href='https://readsludge.com/2020/01/13/the-members-of-congress-who-profit-from-war/'>The Members of Congress Who Profit From War</a></li>
+      <li><a href='https://readsludge.com/2020/01/03/members-of-congress-own-up-to-93-million-in-fossil-fuel-stocks/'>Members of Congress Own Up to $93 Million in Fossil Fuel Stocks</a></li>
+      <li><a href='https://www.theguardian.com/us-news/2019/sep/19/us-senators-investments-conflict-of-interest'>Revealed: how US senators invest in firms they are supposed to regulate</a></li>
+      <li><a href='https://readsludge.com/2019/04/10/reps-questioning-megabank-ceos-own-stock-in-their-companies/'>Reps Questioning Megabank CEOs Own Stock in Their Companies</a></li>
       </ul>
   tags:
   - work
+
 
 
 - date: 6-1-2022
@@ -390,13 +397,19 @@
 - tags:
   - education
   school: Northwestern University
-  major: Masters in Data science
+  major: M.S. in Data science
   date: 12-19-2025
 
 - tags:
   - education
+  school: General Assembly
+  major: Certificate in Data Science
+  date: 7-1-2018
+
+- tags:
+  - education
   school: Washington University in St. Louis
-  major: Biology
+  major: B.S. in Biology
   date: 6-1-2004
 
 # content
@@ -405,24 +418,24 @@
   media_type: songs
   header: "The last 3 songs I listened to"
   media: 
-    - by: Austra
-      title: Math Equation
-    - by: BigWalkDog
-      title: Lift
-    - by: Geese
-      title: Taxes
+    - by: The Bothy Band
+      title: Fionnghuala
+    - by: Malcolm McLaren
+      title: Buffalo Girls
+    - by: Lelek
+      title: Andromeda
 
 - tags:
   - content
   media_type: books
   header: "The last 3 books I read/am reading"
   media:
-    - by: Jim Dwyer
-      title: Subway Lives (24 Hours in the Life of the New York City Subway)
+    - by: Amy Levy
+      title: "Reuben Sachs: A Sketch"
     - by: Paul M. Barrett
       title: "Glock: The Rise Of America's Gun"
     - by: Alan Siegel
-      title: Stupid TV, Be More Funny
+      title: "Stupid TV, Be More Funny"
 
 
 # writing

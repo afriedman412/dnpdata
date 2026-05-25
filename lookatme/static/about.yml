@@ -11,7 +11,7 @@ socials:
 bio: >-
   My name is Andrew, but most people call me Andy.<br><br>
 
-  I am a data scientist, coder, writer and talker. I wear a lot of hats and like to learn through doing.<br><br>
+  I am an engineer, data scientist, coder, writer and talker. I wear a lot of hats and like to learn through doing.<br><br>
 
   Recently completed my M.S. in Data Science at Northwestern.<br><br>
   
@@ -23,5 +23,5 @@ bio: >-
 
 include: more_bio.html
 
-footer: Made with <a href="https://github.com/afriedman412/lookatme"><strong>Look At Me</strong></a> © 2023 DNP Data
+footer: Made with <a href="https://github.com/afriedman412/lookatme"><strong>Look At Me</strong></a> © 2023-2026 DNP Data
 
